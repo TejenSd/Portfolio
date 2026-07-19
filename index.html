@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Name | Portfolio</title>
+    <meta
+      name="description"
+      content="A modern portfolio website built with HTML, CSS, and JavaScript."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="container nav">
+        <a class="brand" href="#home">Your Name</a>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero container">
+        <div class="hero-copy">
+          <p class="eyebrow">Hello, I’m</p>
+          <h1>Designer, developer, and problem solver.</h1>
+          <p class="hero-text">
+            I build clean, modern digital experiences that are thoughtful, fast,
+            and user-centered.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">View Projects</a>
+            <a class="btn btn-secondary" href="#contact">Let’s Talk</a>
+          </div>
+        </div>
+        <div class="hero-card" aria-label="Profile summary">
+          <div class="avatar">YN</div>
+          <h2>Available for freelance work</h2>
+          <p>
+            I create web experiences with a balance of creativity, strategy, and
+            code.
+          </p>
+        </div>
+      </section>
+
+      <section id="about" class="section container">
+        <div class="section-heading">
+          <p class="eyebrow">About Me</p>
+          <h2>I turn ideas into memorable online experiences.</h2>
+        </div>
+        <div class="about-grid">
+          <p>
+            I’m a passionate developer focused on building products that feel
+            intuitive, polished, and valuable. My work blends visual design,
+            front-end development, and thoughtful interaction design.
+          </p>
+          <p>
+            Whether I’m launching a personal brand, refining a product, or
+            creating a custom website, I aim to make every detail feel deliberate
+            and purposeful.
+          </p>
+        </div>
+      </section>
+
+      <section id="skills" class="section section-alt">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Skills</p>
+            <h2>Tools and technologies I use.</h2>
+          </div>
+          <div class="skills-grid">
+            <article class="card">
+              <h3>Frontend</h3>
+              <p>HTML, CSS, JavaScript, React</p>
+            </article>
+            <article class="card">
+              <h3>Design</h3>
+              <p>UI/UX, responsive layouts, visual systems</p>
+            </article>
+            <article class="card">
+              <h3>Workflow</h3>
+              <p>Git, VS Code, Figma, performance tuning</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section container">
+        <div class="section-heading">
+          <p class="eyebrow">Projects</p>
+          <h2>Selected work I’m proud of.</h2>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card">
+            <h3>Studio Landing Page</h3>
+            <p>A polished marketing site for a creative studio with custom visuals and conversion-focused sections.</p>
+            <div class="tags">
+              <span>Web Design</span>
+              <span>Frontend</span>
+            </div>
+          </article>
+          <article class="project-card">
+            <h3>Product Dashboard</h3>
+            <p>A modern analytics dashboard designed to help teams track progress and focus on key metrics.</p>
+            <div class="tags">
+              <span>UI</span>
+              <span>React</span>
+            </div>
+          </article>
+          <article class="project-card">
+            <h3>Personal Brand Site</h3>
+            <p>A clean portfolio experience built to present work, background, and contact information clearly.</p>
+            <div class="tags">
+              <span>Portfolio</span>
+              <span>Responsive</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section section-alt">
+        <div class="container contact-card">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2>Let’s create something meaningful together.</h2>
+          </div>
+          <div class="contact-actions">
+            <a class="btn btn-primary" href="mailto:you@example.com">Email Me</a>
+            <a class="btn btn-secondary" href="https://linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <p>© <span id="year"></span> Your Name. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
